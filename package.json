@@ -1,0 +1,28 @@
+{
+  "name": "stampiza2",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^6.0.3",
+    "@astrojs/tailwind": "^5.0.1",
+    "@astrojs/ts-plugin": "^1.2.0",
+    "@astrojs/vue": "^3.0.1",
+    "astro": "^3.2.3",
+    "fs": "^0.0.1-security",
+    "glob": "^10.3.10",
+    "path": "^0.12.7",
+    "tailwindcss": "^3.0.24",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "daisyui": "^3.9.3"
+  }
+}

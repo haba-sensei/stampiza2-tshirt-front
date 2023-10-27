@@ -1,0 +1,12 @@
+{
+  "extends": "astro/tsconfigs/strict", 
+  "compilerOptions": {
+    "jsx": "preserve",
+    // "verbatimModuleSyntax": true,
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin"
+      },
+    ],
+  }
+}

@@ -1,0 +1,11 @@
+---
+import LayoutPublic from '../../layouts/LayoutPublic.astro'
+import { general } from '../../common/constants'
+
+const number = Astro.params.id;
+---
+
+<LayoutPublic title={general.title} descripcion={general.descripcion}>
+<h1>Producto</h1>
+<p>Esta es la página de producto {number}</p> 
+</LayoutPublic> 

@@ -1,0 +1,9 @@
+--- 
+import LayoutPublic from '../layouts/LayoutPublic.astro';
+import { general } from '../common/constants'
+import Store from '../components/store/index.vue'
+---
+
+<LayoutPublic title={general.title} descripcion={general.descripcion}>
+    <Store />
+</LayoutPublic> 

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background-color: #090029;
+    color: #fff;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.test {
+    font-family: 'Metal Mania', cursive;
+    font-size: 16px;
+    line-height: 1.5;
+}
